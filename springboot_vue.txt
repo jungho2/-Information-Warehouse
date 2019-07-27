@@ -17,11 +17,25 @@
 
 
 # vue 설치 및 실행
+(CLI 2.0버전)
 $ npm install -g vue-cli
 $ vue init webpack frontend
 $ cd frontend 
 $ npm install 
 $ npm run dev
+
+(CLI 3.0버전)
+$ npm install -g @vue/cli
+# 또는
+$ npm install -g yarn
+$ yarn global add @vue/cli
+
+$ vue create frontend
+$ cd frontend 
+$ npm run serve
+ (yarn 버전 $ yarn serve)
+
+
 =============================================
 bash$ vue init webpack frontend 
     

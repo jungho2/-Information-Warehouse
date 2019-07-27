@@ -1,0 +1,54 @@
+// 프로젝트 폴더
+$ git init
+$ git add .
+$ git commit -m 'test project'
+
+// github 저장소 생성후
+$ git remote add origin https://github.com/test/test.git
+$ git push -u origin master
+
+// git clone
+$ git clone https://github.com/test/test.git
+
+// bracnch 생성
+$ git branch hoya
+( add commit 생략)
+$ git push --set-upstream origin hoya
+
+// 다시 master brunch로 이동하기
+$ git checkout master
+
+// 작업한 brunch의 내용 merge하기
+$ git merge hoya
+
+// merge한 내용 push하기
+$ git push (origin master 생략가능)
+
+
+// git add 되돌리기
+$ git reset
+
+// git commit 되돌리기
+$ git reset HEAD~1 ( 바로전 커밋 되돌리기)
+$ git reset HEAD~2 ( 커밋 2개 되돌리기)
+
+
+=======================================================
+
+// 명령어
+git init : git 생성하기
+git checkout branch_name : 브랜치 선택하기
+git branch branch_name : 브랜치 생성하기
+git branch -r : 원격 브랜치 목록보기
+git branch -a : 로컬 브랜치 목록보기
+git branch -m branch_name change_branch_name : 브랜치 이름 바꾸기
+git branch -d branch_name : 브랜치 삭제하기
+git push remote_name ? delete branch_name : 원격 브랜치 삭제하기 ( git push origin ? delete gh-pages )
+git pull : git서버에서 최신 코드 받아와 merge 하기
+git fetch : git서버에서 최신 코드 받아오기
+git reset ? hard HEAD^ : commit한 이전 코드 취소하기
+git reset ? soft HEAD^ : 코드는 살리고 commit만 취소하기
+git reset ? merge : merge 취소하기
+git reset ? hard HEAD && git pull : git 코드 강제로 모두 받아오기
+git config ? global user.name “user_name ” : git 계정Name 변경하기
+git config ? global user.email “user_email” : git 계정Mail변경하기

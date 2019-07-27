@@ -1,0 +1,48 @@
+
+# VSCode 플러그인
+- Vetur
+- Vue 2 Snippets
+- java IDE Pack
+
+
+# StringBoot 프로젝트 생성
+- Lombok Core
+- Mybatis
+- JPA
+- Spring Web Starter
+- Thymeleaf Engines
+
+
+### applition.yml 설정
+
+
+# vue 설치 및 실행
+$ npm install -g vue-cli
+$ vue init webpack frontend
+$ cd frontend 
+$ npm install 
+$ npm run dev
+=============================================
+bash$ vue init webpack frontend 
+    
+? Project name frontend
+? Project description A Vue.js project 
+? Author bkjeon1614@gmail.com 
+? Vue build standalone 
+? Install vue-router? Yes 
+? Use ESLint to lint your code? Yes 
+? Pick an ESLint preset Airbnb 
+? Set up unit tests Yes 
+? Pick a test runner karma 
+? Setup e2e tests with Nightwatch? Yes 
+
+    vue-cli · Generated "vue-test". 
+=============================================
+
+
+
+
+
+
+
+

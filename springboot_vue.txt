@@ -1,11 +1,12 @@
 
-# VSCode ÇÃ·¯±×ÀÎ
+# VSCode í”ŒëŸ¬ê·¸ì¸
 - Vetur
 - Vue 2 Snippets
 - java IDE Pack
+- Spring Initializr Java Support
+- Spring Boot Extension Pack
 
-
-# StringBoot ÇÁ·ÎÁ§Æ® »ı¼º
+# StringBoot í”„ë¡œì íŠ¸ ìƒì„±
 - Lombok Core
 - Mybatis
 - JPA
@@ -13,27 +14,27 @@
 - Thymeleaf Engines
 
 
-### applition.yml ¼³Á¤
+### applition.yml ì„¤ì •
 
 
-# vue ¼³Ä¡ ¹× ½ÇÇà
-(CLI 2.0¹öÀü)
+# vue ì„¤ì¹˜ ë° ì‹¤í–‰
+(CLI 2.0ë²„ì „)
 $ npm install -g vue-cli
 $ vue init webpack frontend
 $ cd frontend 
 $ npm install 
 $ npm run dev
 
-(CLI 3.0¹öÀü)
+(CLI 3.0ë²„ì „)
 $ npm install -g @vue/cli
-# ¶Ç´Â
+# ë˜ëŠ”
 $ npm install -g yarn
 $ yarn global add @vue/cli
 
 $ vue create frontend
 $ cd frontend 
 $ npm run serve
- (yarn ¹öÀü $ yarn serve)
+ (yarn ë²„ì „ $ yarn serve)
 
 
 =============================================
@@ -50,7 +51,7 @@ bash$ vue init webpack frontend
 ? Pick a test runner karma 
 ? Setup e2e tests with Nightwatch? Yes 
 
-    vue-cli ¡¤ Generated "vue-test". 
+    vue-cli Â· Generated "vue-test". 
 =============================================
 
 
